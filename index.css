@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 150%;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.scor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+.playername{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.playerA,
+.playerB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    margin: 4%;
+}
+.timer-btn{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timer{
+    width: 80%;
+}
+.reset{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
